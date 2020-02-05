@@ -12,5 +12,6 @@ class MainActivity : AppCompatActivity() {
 
 
         Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT).show()
+        Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT).show()
     }
 }
