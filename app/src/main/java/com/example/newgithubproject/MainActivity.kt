@@ -3,6 +3,8 @@ package com.example.newgithubproject
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Toast
+import com.example.mylibrary.HelperMethod
+
 
 class MainActivity : AppCompatActivity() {
 
@@ -11,7 +13,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT).show()
-        Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT).show()
+
+        val helperMethod= HelperMethod()
+        Toast.makeText(this,helperMethod.name,Toast.LENGTH_LONG).show()
+
+
     }
 }
