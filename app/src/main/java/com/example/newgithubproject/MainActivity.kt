@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
 
-        Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT)
+        Toast.makeText(this,"hello commit",Toast.LENGTH_SHORT).show()
     }
 }
